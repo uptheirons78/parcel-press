@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss/styles.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA","file":"main.css","sourceRoot":"..","sourcesContent":["body {\n  height: 100vh;\n  background: orangered;\n  color: white;\n}"]}
