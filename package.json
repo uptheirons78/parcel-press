@@ -7,7 +7,7 @@
     "dev": "parcel dev parcel-imports.js -o main",
     "build": "parcel build parcel-imports.js -o main --public-url ./",
     "watch": "parcel watch parcel-imports.js -o main --public-url ./",
-    "serve": "parcel serve parcel-imports.js -o main --public-url ./ --hmr-hostname http://localhost:10013",
+    "serve": "parcel serve parcel-imports.js -o main --public-url ./",
     "production": "parcel build parcel-imports.js -o main --no-cache --no-source-maps --public-url ./"
   },
   "watchreload": {
@@ -17,10 +17,14 @@
       "**/*.css"
     ]
   },
-  "keywords": ["wordpress", "parcel"],
+  "keywords": [
+    "wordpress",
+    "parcel"
+  ],
   "author": "Mauro Bono",
   "license": "MIT",
   "devDependencies": {
+    "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-watch-reload": "^1.0.3",
     "sass": "^1.41.0"
